@@ -1,0 +1,178 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+	 <link rel="stylesheet" href="css/home.css">
+</head>
+<body style="background-image: url(computer.jpg);">
+
+<header>
+	
+<nav>
+	<div class="logo"> <h1 style="font-size: 20px;"> Syscom Computers </h1> </div>
+	<div class="menu">
+		<a href="#" style="font-size:20px">Home</a>
+		<a href="#">gallery</a>
+		<a href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA" target="_blank">about</a>
+		<a href="#">contact</a>
+	</div>
+</nav>
+
+	<main>
+		<section>
+			<h3>Welcome To Syscom Computers</h3>
+			<h1>Put your knowledge into action and build something<span class="change_content"> </span> <span style="margin-top: -10px;"> | </span> </h1>
+			<p>"Upgrade your knowledge with us"</p>
+			
+		</section>
+	</main>
+     -->
+
+<!-- </body> -->
+
+<!-- </html> -->
+
+
+<!-- </header> -->
+
+<!-- </body> -->
+<!-- </html> -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    <header>
+	
+        <nav>
+            <div class="logo"> <h1 style="font-size: 20px; color: azure;"> SPPU Computer Engineering website </h1> </div>
+            <div class="menu">
+                <a href="index.html" style="font-size:20px">index</a>
+                <a href="courses.html">courses</a>
+                <!-- <a href="#">gallery</a> -->
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </nav>
+        
+
+     <div class="slideshow-container">
+
+    <div class="mySlides fade">
+  
+   <img src="computer.jpg" style="width:100%">
+    <div class="text"><h3>Welcome To SPPU Computer Engineering Website</h3>
+     <h1>Make your Educational Journey <span class="change_content"> </span> <span style="margin-top: -10px;"> | </span> </h1>
+    <p>"Upgrade your knowledge with us"</p></div>
+ 
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="lappy.jpg" style="width:100%">
+  <div class="text"><h3>Welcome To SPPU Computer Engineering Website</h3>
+    <h1>Make your Educational Journey<span class="change_content"> </span> <span style="margin-top: -10px;"> | </span> </h1>
+    <p>"Upgrade your knowledge with us"</p></div>
+  
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="students.jpg" style="width:100%">
+  <div class="text"><h3>Welcome To SPPU Computer Engineering Website</h3>
+    <h1>Make your Educational Journey<span class="change_content"> </span> <span style="margin-top: -10px;"> | </span> </h1>
+    <p>"Upgrade your knowledge with us"</p>
+   </div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+</header>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+<div class="para">
+    <p>SPPU offers undergraduate, postgraduate and doctoral programs in various fields of study, including science, arts, commerce, engineering, management, and law. It has more than 70 departments and over 800 affiliated colleges spread across the state of Maharashtra.</p>
+
+<!-- </p><P>Computer Education is a broad term but it generally there are two concepts used in education; with computer and about computer. The definition of computer education actually depends on time we are speaking of. In the past, computer used the languages which were too complex for everyone to understand
+     only specific people having specific qualification could be educated about and in computer.</p> --> 
+</div>
+<footer class="footer-distributed">
+
+    <div class="footer-left">
+        <h3>SPPU<span>Computer Engineering</span>Website</h3>
+
+        <p class="footer-links">
+            <a href="C:/Users/Maitriyee/Desktop/intership-site/home.html">Home</a>
+            |
+            <a href="C:/Users/Maitriyee/Desktop/intership-site/about.html">About</a>
+            |
+            <a href="C:/Users/Maitriyee/Desktop/intership-site/contact.html">Contact</a>
+            
+        </p>
+
+        <p class="footer-company-name">Copyright © 2021 <strong>SyscomComputers</strong> All rights reserved</p>
+    </div>
+
+    <div class="footer-center">
+        <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>Nashik</span>
+                Nashik</p>
+        </div>
+
+        <div>
+            <i class="fa fa-phone"></i>
+            <p>+919011291827 </p>
+        </div>
+        <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="mailto:joshimaithreyee@gmail.com">joshimaithreyee@gmail.com</a></p>
+        </div>
+    </div>
+    <div class="footer-right">
+        <p class="footer-company-about">
+            <span>About the University</span>
+            <strong>SPPU is known for its academic excellence, research capabilities, and
+            state-of-the-art infrastructure</strong>
+            </p>
+        <div class="footer-icons">
+            <a href="http://www.unipune.ac.in"><i class="fa fa-facebook"></i>click here</a>
+            <!-- <a href="#"><i class="fa fa-instagram"></i></a> -->
+            <!-- <a href="#"><i class="fa fa-gmail"></i></a> -->
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
